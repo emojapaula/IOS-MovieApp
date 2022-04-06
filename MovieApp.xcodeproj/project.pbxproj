@@ -14,9 +14,10 @@
 		8C0B710F27EB450B003FA1CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C0B710E27EB450B003FA1CD /* Assets.xcassets */; };
 		8C0B711227EB450B003FA1CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0B711027EB450B003FA1CD /* LaunchScreen.storyboard */; };
 		8C0B711A27EB5A12003FA1CD /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0B711927EB5A12003FA1CD /* MovieDetailsViewController.swift */; };
-		8C1FE12427F4DFA700C58DAE /* ProximaNovaBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C1FE12327F4DFA700C58DAE /* ProximaNovaBold.otf */; };
-		8C1FE12627F4E03400C58DAE /* ProximaNovaFont.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C1FE12527F4E03400C58DAE /* ProximaNovaFont.otf */; };
-		8C1FE12A27F4EBDE00C58DAE /* ProximaNovaExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C1FE12927F4EBDE00C58DAE /* ProximaNovaExtraBold.otf */; };
+		8C1FE12C27FC3E1100C58DAE /* ProximaNovaBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C1FE12B27FC3E1100C58DAE /* ProximaNovaBold.otf */; };
+		8C1FE12F27FE0CA600C58DAE /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1FE12E27FE0CA600C58DAE /* UILabel.swift */; };
+		8C1FE13127FE191100C58DAE /* ProximaNovaFont.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C1FE13027FE191100C58DAE /* ProximaNovaFont.otf */; };
+		8C1FE13327FE193D00C58DAE /* ProximaNovaExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C1FE13227FE193D00C58DAE /* ProximaNovaExtraBold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +30,10 @@
 		8C0B711127EB450B003FA1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C0B711327EB450B003FA1CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C0B711927EB5A12003FA1CD /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
-		8C1FE12327F4DFA700C58DAE /* ProximaNovaBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ProximaNovaBold.otf; path = ../../../../.Trash/ProximaNovaBold.otf; sourceTree = "<group>"; };
-		8C1FE12527F4E03400C58DAE /* ProximaNovaFont.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ProximaNovaFont.otf; path = ../../../../.Trash/ProximaNovaFont.otf; sourceTree = "<group>"; };
-		8C1FE12927F4EBDE00C58DAE /* ProximaNovaExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ProximaNovaExtraBold.otf; path = ../../../../.Trash/ProximaNovaExtraBold.otf; sourceTree = "<group>"; };
+		8C1FE12B27FC3E1100C58DAE /* ProximaNovaBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNovaBold.otf; sourceTree = "<group>"; };
+		8C1FE12E27FE0CA600C58DAE /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		8C1FE13027FE191100C58DAE /* ProximaNovaFont.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ProximaNovaFont.otf; path = ../../../ProximaNovaFont.otf; sourceTree = "<group>"; };
+		8C1FE13227FE193D00C58DAE /* ProximaNovaExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ProximaNovaExtraBold.otf; path = ../../../ProximaNovaExtraBold.otf; sourceTree = "<group>"; };
 		BF8B1AFAEEF2E3703A1914E4 /* Pods-MovieApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieApp.release.xcconfig"; path = "Target Support Files/Pods-MovieApp/Pods-MovieApp.release.xcconfig"; sourceTree = "<group>"; };
 		C5964BB36FB0016FA97FBB75 /* Pods_MovieApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -91,6 +93,7 @@
 				8C0B710927EB4507003FA1CD /* ViewController.swift */,
 				8C0B711927EB5A12003FA1CD /* MovieDetailsViewController.swift */,
 				8C1FE12127F4DDA800C58DAE /* Fonts */,
+				8C1FE12D27FE0C7A00C58DAE /* Extensions */,
 				8C0B710E27EB450B003FA1CD /* Assets.xcassets */,
 				8C0B711027EB450B003FA1CD /* LaunchScreen.storyboard */,
 				8C0B711327EB450B003FA1CD /* Info.plist */,
@@ -101,11 +104,19 @@
 		8C1FE12127F4DDA800C58DAE /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				8C1FE12527F4E03400C58DAE /* ProximaNovaFont.otf */,
-				8C1FE12927F4EBDE00C58DAE /* ProximaNovaExtraBold.otf */,
-				8C1FE12327F4DFA700C58DAE /* ProximaNovaBold.otf */,
+				8C1FE13227FE193D00C58DAE /* ProximaNovaExtraBold.otf */,
+				8C1FE12B27FC3E1100C58DAE /* ProximaNovaBold.otf */,
+				8C1FE13027FE191100C58DAE /* ProximaNovaFont.otf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8C1FE12D27FE0C7A00C58DAE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8C1FE12E27FE0CA600C58DAE /* UILabel.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,9 +179,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C1FE12427F4DFA700C58DAE /* ProximaNovaBold.otf in Resources */,
-				8C1FE12A27F4EBDE00C58DAE /* ProximaNovaExtraBold.otf in Resources */,
-				8C1FE12627F4E03400C58DAE /* ProximaNovaFont.otf in Resources */,
+				8C1FE12C27FC3E1100C58DAE /* ProximaNovaBold.otf in Resources */,
+				8C1FE13327FE193D00C58DAE /* ProximaNovaExtraBold.otf in Resources */,
+				8C1FE13127FE191100C58DAE /* ProximaNovaFont.otf in Resources */,
 				8C0B711227EB450B003FA1CD /* LaunchScreen.storyboard in Resources */,
 				8C0B710F27EB450B003FA1CD /* Assets.xcassets in Resources */,
 			);
@@ -225,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C1FE12F27FE0CA600C58DAE /* UILabel.swift in Sources */,
 				8C0B711A27EB5A12003FA1CD /* MovieDetailsViewController.swift in Sources */,
 				8C0B710A27EB4507003FA1CD /* ViewController.swift in Sources */,
 				8C0B710627EB4507003FA1CD /* AppDelegate.swift in Sources */,
