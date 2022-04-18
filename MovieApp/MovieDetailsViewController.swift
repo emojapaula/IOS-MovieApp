@@ -9,9 +9,7 @@ import UIKit
 import SnapKit
 
 class MovieDetailsViewController: UIViewController, UIScrollViewDelegate{
-    
-    
-    
+
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
     }
