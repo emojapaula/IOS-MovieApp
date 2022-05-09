@@ -13,7 +13,7 @@ class MovieCell: UICollectionViewCell {
     private var movieContainer: UIView!
     private var movieThumbnail: UIImageView!
     private var movieTitleLabel: UILabel!
-    private var movieDescription: CustomUILabel!
+    private var movieDescription: UILabel!
     
     override init(frame: CGRect) {
         super.init(frame: .zero)
@@ -31,7 +31,7 @@ class MovieCell: UICollectionViewCell {
         movieTitleLabel = UILabel()
         movieContainer.addSubview(movieTitleLabel)
         
-        movieDescription = CustomUILabel()
+        movieDescription = UILabel()
         movieContainer.addSubview(movieDescription)
         
         movieThumbnail = UIImageView()
