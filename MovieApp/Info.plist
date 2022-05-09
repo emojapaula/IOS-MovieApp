@@ -7,6 +7,7 @@
 		<string>ProximaNovaBold.otf</string>
 		<string>ProximaNovaFont.otf</string>
 		<string>ProximaNovaExtraBold.otf</string>
+		<string>ProximaNovaMedium.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
